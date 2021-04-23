@@ -7,6 +7,11 @@ int main(){
 	cin.tie(0);
 	int n;
 	cin >> n;
-	cout << "Output:" << (n%9) << '\n';
+	if(n%9 == 0) {
+		cout << "9\n";
+	}
+	else {
+		cout << (n%9) << '\n';
+	}
 	return 0;
 }
